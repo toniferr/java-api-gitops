@@ -1,0 +1,10 @@
+namespace: java-api
+
+resources:
+  - configmap.yaml
+  - deployment.yaml
+  - service.yaml
+
+images:
+  - name: gitops-lab/java-api
+    newTag: 0.1.0

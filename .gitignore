@@ -1,0 +1,12 @@
+# Build output
+target/
+*.class
+*.jar
+*.jar.original
+
+# IDE and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db

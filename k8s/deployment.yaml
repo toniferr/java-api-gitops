@@ -6,7 +6,7 @@ metadata:
     app.kubernetes.io/name: java-api
     app.kubernetes.io/part-of: gitops-lab
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app.kubernetes.io/name: java-api
